@@ -4,6 +4,38 @@ Published TiltTrace releases. Packages are attached to each [GitHub release](../
 
 Published artifacts are immutable: a released version is never rebuilt or replaced.
 
+## 0.0.4 — 2026-09-08
+
+- Added dynamic on-screen pairing QR code for instant phone camera scanning.
+- Auto-filling pairing code and PC host deep links (`tilttrace://bridge`).
+- Smart clipboard detection and 1-tap code copy with bulletproof mobile HTTP fallback.
+- Built-in local HTTP server for 1-tap browser APK download to phone.
+- 1-click ADB USB companion installation and auto-launch directly from Windows desktop UI.
+- Direct APK file export button for offline sideloading.
+- Multi-network adapter prioritization: filters link-local (APIPA) and prioritizes active LAN with default gateway.
+- Android 14+ Foreground Service conformance (`FOREGROUND_SERVICE_TYPE_DATA_SYNC`).
+- Comprehensive provider broadcast extra parsing (`value`, `bpm`, `heartRate`, `hr`).
+- Automatic bridge start when testing connection.
+- Socket `ReuseAddress` support to prevent port collision on rapid restart.
+
+| File | SHA-256 |
+|---|---|
+| `TiltTrace-0.0.4-Setup.exe` | `684882c108e41346ae41d22588f1c623f24e1eed3f90d8e7ca3cfa561528006e` |
+| `TiltTrace-0.0.4-win-x64.zip` | `340e9534012d5ef73eaf691eb7b89c28a783579822d155147297b56a714792d4` |
+| `TiltTrace-Bridge-0.0.4.apk` | `6502703ddaa4ca6e90e836a0eeace894ee5cbae331362346fe8f6ad3f489fdb9` |
+
+## 0.0.3 — 2026-09-07
+
+- Hardened UI-thread session finalization preventing crash risk on session end.
+- Removed unused offline-admin code.
+- Excluded internal test fixture from the shipped release package.
+
+| File | SHA-256 |
+|---|---|
+| `TiltTrace-0.0.3-Setup.exe` | `40fad11aed5aeb599dfa0e74071bda80a47c6b410bff882233fc4493bf0899a1` |
+| `TiltTrace-0.0.3-win-x64.zip` | `0b9b855aea3100c8ad649172116bd73a0264b093320d0f714eaede6d72ebf454` |
+| `TiltTrace-Bridge-0.0.3.apk` | `4516125dd71c0417f2810b0f3640282d4270228b7c018cabd44f34f6210ce88f` |
+
 ## 0.0.2 — 2026-09-07
 
 - Fixed provider HR broadcasts being queued behind the Android receive loop and never transmitted.
