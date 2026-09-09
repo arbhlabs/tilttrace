@@ -4,6 +4,20 @@ Published TiltTrace releases. Packages are attached to each [GitHub release](../
 
 Published artifacts are immutable: a released version is never rebuilt or replaced.
 
+## Windows 1.2.1 / Android 0.0.6 — 2026-09-09
+
+- Windows adds one-click Rocket League official Stats API setup.
+- Existing Rocket League Stats API user configuration is backed up before TiltTrace writes its local telemetry config.
+- The Windows package is explicitly published as an unsigned Windows build with SHA-256 verification.
+- Android 0.0.6 remains the current Android app release.
+
+| File | SHA-256 |
+|---|---|
+| `TiltTrace-1.2.1-Setup.exe` | `e7c14b3585f6aa32dfcd4707f941dce960a46666c2c541e5c9923fb57f883922` |
+| `TiltTrace-1.2.1-win-x64.zip` | `bf1d4993f810d3d749a6a5a11932425d58974f01ebbae85c2c76d678c7c98016` |
+| `TiltTrace-Bridge-1.2.1.apk` | `e1650e71547b28688ed12e5b0519148b5864cfc0756602004025bf00b18397a9` |
+| `TiltTrace-0.0.6.apk` | `d067e1db5ede981a4d1fc7c27049498ab4e5824362f4b123eda9929276cee022` |
+
 ## Windows 1.2.0 / Android 0.0.6 — 2026-09-09
 
 - Android now supports an independent session with an optional standard Android controller; a PC is not required.
