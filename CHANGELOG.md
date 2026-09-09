@@ -4,6 +4,19 @@ Published TiltTrace releases. Packages are attached to each [GitHub release](../
 
 Published artifacts are immutable: a released version is never rebuilt or replaced.
 
+## Windows 1.2.0 / Android 0.0.6 — 2026-09-09
+
+- Android now supports an independent session with an optional standard Android controller; a PC is not required.
+- Windows retains standalone controller, local-session, Bluetooth heart-rate, and optional authenticated Android bridge workflows.
+- Hybrid pairing remains optional and tolerates either endpoint disconnecting or being unavailable.
+- Windows release tooling no longer contains a signing-secret fallback.
+
+| File | SHA-256 |
+|---|---|
+| `TiltTrace-1.2.0-Setup.exe` | `0420a6c2f19a7e727f8c0ccac8d4df4829b8793aa16f6b83df41ea01204e9af6` |
+| `TiltTrace-1.2.0-win-x64.zip` | `8bb21081889a5cb3c01f827cb9394639a469fe90763fd545e9d93913dff43e71` |
+| `TiltTrace-0.0.6.apk` | `d067e1db5ede981a4d1fc7c27049498ab4e5824362f4b123eda9929276cee022` |
+
 ## 0.0.4 — 2026-09-08
 
 - Added dynamic on-screen pairing QR code for instant phone camera scanning.

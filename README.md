@@ -10,10 +10,11 @@ Release packages are attached to every [release](../../releases). The current Wi
 
 | | |
 |---|---|
-| Current version | **0.0.2** |
+| Current Windows version | **1.2.0** |
+| Current Android version | **0.0.6** |
 | Requires | Windows 10/11 x64 |
-| Installer size | 74,016,135 bytes |
-| Installer SHA-256 | `6e028b626485286a82a91e95d93ef1c92456aa598de3fae3b7f341824a5d3fbe` |
+| Installer size | 77,296,760 bytes |
+| Installer SHA-256 | `0420a6c2f19a7e727f8c0ccac8d4df4829b8793aa16f6b83df41ea01204e9af6` |
 
 ## Inputs
 
@@ -33,16 +34,16 @@ TiltTrace is gaming-performance software, not a medical product. It does not pro
 ## Verifying a download
 
 ```powershell
-Get-FileHash .\TiltTrace-0.0.2-Setup.exe -Algorithm SHA256
+Get-FileHash .\TiltTrace-1.2.0-Setup.exe -Algorithm SHA256
 ```
 
 Expected SHA-256:
 
 ```text
-6e028b626485286a82a91e95d93ef1c92456aa598de3fae3b7f341824a5d3fbe
+0420a6c2f19a7e727f8c0ccac8d4df4829b8793aa16f6b83df41ea01204e9af6
 ```
 
-Windows packages are not Authenticode-signed in 0.0.2. The optional Android bridge is release-signed by ARBH Labs; its certificate SHA-256 fingerprint is `32679bae50998083d2e4df8aa39a5db80dad49101770bcb39262c4cce44fc8fc`.
+Windows packages are distributed with SHA-256 verification. The Android app and the optional Android bridge are release-signed by ARBH Labs.
 
 ## Issues and feedback
 
